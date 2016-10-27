@@ -1,0 +1,247 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="1358074347" file="/Users/pengqiu/Desktop/standalone_mac/SPADE3_2016_10_10_mac.prj" location="/Users/pengqiu/Desktop/standalone_mac" name="SPADE3_2016_10_10_mac" preferred-package-location="/Users/pengqiu/Desktop/standalone_mac/SPADE3_2016_10_10_mac/for_redistribution" preferred-package-type="package.type.app" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>SPADE3_2016_10_10_mac</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>3.0</param.version>
+    <param.authnamewatermark>Peng Qiu</param.authnamewatermark>
+    <param.email />
+    <param.company />
+    <param.summary>SPADE version 3.0</param.summary>
+    <param.description>updated 2016-10-10</param.description>
+    <param.screenshot>${PROJECT_ROOT}/icon.png</param.screenshot>
+    <param.guid />
+    <param.net.saved.interface />
+    <param.installpath.string>/SPADE3_2016_10_10_mac/</param.installpath.string>
+    <param.installpath.combo>option.installpath.systemwideapp</param.installpath.combo>
+    <param.logo>${PROJECT_ROOT}/icon.png</param.logo>
+    <param.install.notes />
+    <param.intermediate>${PROJECT_ROOT}/SPADE3_2016_10_10_mac/for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}/SPADE3_2016_10_10_mac/for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}/SPADE3_2016_10_10_mac/for_redistribution</param.output>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.embed.ctf>true</param.embed.ctf>
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.required.mcr.products>
+      <item>35000</item>
+      <item>35010</item>
+      <item>35001</item>
+    </param.required.mcr.products>
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>false</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.email />
+      <param.company />
+      <param.guid />
+      <param.net.saved.interface />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.embed.ctf />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+    </unset>
+    <fileset.main>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/SPADE.m</file>
+    </fileset.main>
+    <fileset.resources>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/Copy of draw_SPADE_tree.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/Cytobank_contour2D.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/EarthMoverDist2.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/FlowJo_contour2D.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/HCC_heatmap.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/L1_dist_one_to_many.asv</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/L1_dist_one_to_many.c</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/L1_dist_one_to_many.mexa64</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/L1_dist_one_to_many.mexmaci64</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/L1_dist_one_to_many.mexw32</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/L1_dist_one_to_many.mexw64</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/SPADE.fig</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/SPADE_center_density_to_tree.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/SPADE_center_pairwise_dist.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/SPADE_center_pairwise_dist_L1.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/SPADE_cluster_cells.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/SPADE_compute_one_marker_group_mean.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/SPADE_contour2D.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/SPADE_find_matrix_big_element.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/SPADE_getrect.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/SPADE_mst_from_contact_weights.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/SPADE_per_gene_normalization.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/SPADE_script_pipeline.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/TPE_2D.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/TPE_2D_contour_only.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/ViewRawFCS.asv</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/ViewRawFCS.fig</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/ViewRawFCS.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/View_Edit_SPADE_parameters.asv</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/View_Edit_SPADE_parameters.fig</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/View_Edit_SPADE_parameters.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/View_Edit_SPADE_tree_annotation.fig</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/View_Edit_SPADE_tree_annotation.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/View_Edit_file_annotation.fig</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/View_Edit_file_annotation.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/View_Edit_file_annotation_activex1</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/View_Edit_file_annotations.asv</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/View_Edit_file_annotations.fig</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/View_Edit_file_annotations.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/arch_layout.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/check_compile_c_components.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/check_graph_connectivity.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/check_marker_name_consistency.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/common_functions.h</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/compute_local_density.c</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/compute_local_density.mexa64</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/compute_local_density.mexmaci64</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/compute_local_density.mexw32</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/compute_local_density.mexw64</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/compute_min_dist_downsample.c</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/compute_min_dist_downsample.mexa64</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/compute_min_dist_downsample.mexmaci64</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/compute_min_dist_downsample.mexw32</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/compute_min_dist_downsample.mexw64</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/compute_min_dist_upsample.asv</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/compute_min_dist_upsample.c</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/compute_min_dist_upsample.mexa64</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/compute_min_dist_upsample.mexmaci64</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/compute_min_dist_upsample.mexw32</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/compute_min_dist_upsample.mexw64</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/deterministic_downsample_to_target_density.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/deterministic_kmeans_for_SPADE.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/downsample_to_certain_num_cells.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/draw_SPADE_tree.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/draw_SPADE_tree_annotation.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/draw_SPADE_tree_progressive_more_markers_supp.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/draw_colorbar.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/expand_macros.h</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/extract_connected_component.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/extract_connected_component_from_edge_list.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/faithful_downsample.c</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/faithful_downsample.mexa64</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/faithful_downsample.mexmaci64</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/faithful_downsample.mexw32</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/faithful_downsample.mexw64</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/fca_readfcs.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/fca_readfcs_only_header.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/find_highest_density_position.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/find_matrix_big_element.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/find_matrix_small_element.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/find_matrix_top_element.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/flow_arcsinh.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/get_all_possible_tree_regions.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/get_annotation_contour.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/get_module_mean.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/get_module_median.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/getfilenames.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/isInList.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/isInListEnd.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/kamada_kawai_spring_layout.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/kamada_kawai_spring_layout_mex.c</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/kamada_kawai_spring_layout_mex.mexa64</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/kamada_kawai_spring_layout_mex.mexglx</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/kamada_kawai_spring_layout_mex.mexmac</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/kamada_kawai_spring_layout_mex.mexmaci</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/kamada_kawai_spring_layout_mex.mexw32</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/kamada_kawai_spring_layout_mex.mexw64</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/kmeans_phase1.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/lbmapv2.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/matlab_bgl.h</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/matlab_bgl_types.h</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/mst.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/mst_from_dist_matrix.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/per_gene_normalization.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/ps2pdf.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/radio_layout.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/readfcs.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/readfcs_v2.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/readfcs_v2_only_header.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/rotation_matrix.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/standardize_idx.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/subplot_with_k_panels.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/tree_shortest_hop.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/viSNE_color_plots.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/weighted_tree_distance.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/write_to_txt.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/write_to_txt_v2.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/write_to_txt_v3.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/write_undirected_adj_position_to_gml.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/writefcs.m</file>
+      <file>/Users/pengqiu/Desktop/SPADE3_source_code_revision/writefcs_v2.m</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}/SPADE3_2016_10_10_mac/for_testing" name="readme.txt" optional="true">/Users/pengqiu/Desktop/standalone_mac/SPADE3_2016_10_10_mac/for_testing/readme.txt</file>
+      <file location="${PROJECT_ROOT}/SPADE3_2016_10_10_mac/for_testing" name="SPADE3_2016_10_10_mac.app" optional="false">/Users/pengqiu/Desktop/standalone_mac/SPADE3_2016_10_10_mac/for_testing/SPADE3_2016_10_10_mac.app</file>
+      <file location="${PROJECT_ROOT}/SPADE3_2016_10_10_mac/for_testing" name="splash.png" optional="false">/Users/pengqiu/Desktop/standalone_mac/SPADE3_2016_10_10_mac/for_testing/splash.png</file>
+      <file location="${PROJECT_ROOT}/SPADE3_2016_10_10_mac/for_testing" name="run_SPADE3_2016_10_10_mac.sh" optional="false">/Users/pengqiu/Desktop/standalone_mac/SPADE3_2016_10_10_mac/for_testing/run_SPADE3_2016_10_10_mac.sh</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/Applications/MATLAB_R2015a.app</root>
+      <toolboxes>
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>true</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.10.5</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>maci64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
