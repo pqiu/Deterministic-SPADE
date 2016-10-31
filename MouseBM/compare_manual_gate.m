@@ -1,7 +1,9 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% this part of the code generates one scatter plot for the dendritic cells
-% much of this part is copied from the code that generates Figure 2(b) in
-% the main text
+% this part of the code generates plots that resembles the results in Qiu et al 2011. 
+% the aim is to show that the Deterministic SPADE algorithm does not decrease the quality of the results compared to the original SPADE algorithm
+
+
+addpath ..\SPADE3_source_code_2016_10_10\  % this is the path to SPADE3 source code
 
 load('mouseBM.mat')
 close all
